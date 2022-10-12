@@ -6,6 +6,7 @@ module.exports = function (env) {
         ADMIN_PASSWORD: env.ADMIN_PASSWORD,
         KEY: env.KEY,
         SECRET: env.SECRET,
+        GRAPHQL_INTROSPECTION: env.GRAPHQL_INTROSPECTION,
 
         // Reference: https://docs.railway.app/deploy/exposing-your-app
         PORT: env.PORT,
