@@ -12,8 +12,9 @@ module.exports = function (env) {
         PORT: env.PORT,
 
         // Reference: https://docs.railway.app/develop/variables#railway-provided-variables
-         PUBLIC_URL: `http://0.0.0.0:${env.PORT}`,
+         //PUBLIC_URL: `http://0.0.0.0:${env.PORT}`,
         // PUBLIC_URL: `RAILWAY_STATIC_URL:${env.PORT}`,
+        PUBLIC_URL: `https://${env.RAILWAY_STATIC_URL}`,
         
 
         // Database variables from Railway PostgreSQL Plugin
